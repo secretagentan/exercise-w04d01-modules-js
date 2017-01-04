@@ -1,5 +1,7 @@
 function toPig(string) {
+
   var arrayOfStrings = [];
+
   // SEPARATES STRING OF WORDS AND RETURNS IN AN ARRAY
   function splitString(string, separator) {
     arrayOfStrings = string.split(separator);
@@ -8,13 +10,21 @@ function toPig(string) {
   }
   splitString(string, " ");
 
-  console.log(arrayOfStrings);
   // PIG LATIN-IZE EACH STRING ELEMENT IN ARRAY
   function pigEach() {
-    console.log(arrayOfStrings[0]);
-    // DO THIS FOR EACH ITEM IN ARRAY
+    // console.log(arrayOfStrings);
 
-    // IF FIRST LETTER OF WORD IS NOT A VOWEL
+    // DO THIS FOR EACH ITEM IN ARRAY
+    for (var i = 0; i < arrayOfStrings.length; i++) {
+      // TAKE THE FIRST LETTER OF EACH STRING
+      arrayOfStrings[i] = arrayOfStrings[i].charAt(0);
+      console.log(arrayOfStrings[i]);
+
+      // IF FIRST LETTER OF WORD IS NOT A VOWEL
+
+
+
+    }
 
     // REMOVE THE FIRST LETTER
 
@@ -27,6 +37,7 @@ function toPig(string) {
     // PUSH NEW STRINGS INTO NEW ARRAY
 
   }
+  pigEach();
 
   // COMBINE PIG LATIN-IZED STRINGS INTO SENTENCE
   function pigLatin() {
