@@ -25,9 +25,9 @@ console.log(palindrome.isPalindrome('a man a plan a canal panama')); // true
 
 
 console.log("*****");
-// var pig = require ('./piglatin.js');
-// pig.toPig('hello world') // 'ellohay orldway'
-// pig.fromPig('ellohay orldway') // 'hello world'
+var pig = require ('./piglatin.js');
+pig.toPig('hello world') // 'ellohay orldway'
+pig.fromPig('ellohay orldway') // 'hello world'
 
 
 console.log("*****");
