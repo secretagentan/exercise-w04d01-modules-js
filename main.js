@@ -24,20 +24,20 @@ console.log(palindrome.isPalindrome('racecar')); // true
 console.log(palindrome.isPalindrome('a man a plan a canal panama')); // true
 
 
-console.log("*****");
-var pig = require ('./piglatin.js');
-pig.toPig('hello world') // 'ellohay orldway'
-pig.fromPig('ellohay orldway') // 'hello world'
+// console.log("*****");
+// var pig = require ('./piglatin.js');
+// pig.toPig('hello world') // 'ellohay orldway'
+// pig.fromPig('ellohay orldway') // 'hello world'
 
 
 console.log("*****");
-// var five = require('./five.js');
-// five(); // 5
-// five.upHigh() // ⁵
-// five.downLow() // ₅
-// five.tooSlow() // 5, with a ~500 millisecond delay
-// five.roman() // V
-// five.morseCode() // .....
-// five.negative() // -5
-// five.loud() // FIVE
-// five.smooth() // S
+var five = require('./five.js');
+five(); // 5
+five.upHigh() // ⁵
+five.downLow() // ₅
+five.tooSlow() // 5, with a ~500 millisecond delay
+five.roman() // V
+five.morseCode() // .....
+five.negative() // -5
+five.loud() // FIVE
+five.smooth() // S
